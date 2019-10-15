@@ -8,14 +8,14 @@ void copyright(){
     system("clear");
     printf("=============================================================\n\n");
     printf("JOGO DA FORCA\n");
-    printf("Desenvolvido por: \n\tXXXXX - NNNNNNNNNNNNNNNNNNN\n");
-    printf("\tXXXXX - NNNNNNNNNNNNNNNNNNN\n");
+    printf("Desenvolvido por: Gustavo Felipe Beck 18133\n");
+    printf("Lucas Miranda 18567\n");
     printf("=============================================================\n\n");
 }
 
 int limpaTela()
 {
-puts("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
 return 0;
 }
 
@@ -49,7 +49,7 @@ int main(int argc, char *argv[])
         if(sorteada!=NULL){
             printf("%s\n", sorteada->palavra);
         }else{
-            printf("Não tem palavra disponível!\n\n");
+            printf("Todas as palavras foram usadas!\n\n");
         }
     }while(getchar()!='f');
 
