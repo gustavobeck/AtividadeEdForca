@@ -1,9 +1,0 @@
-# depslib dependency file v1.0
-1571159614 source:c:\users\aluno\desktop\forca\main.c
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"forca.h"
-
-1571159614 c:\users\aluno\desktop\forca\forca.h
-
