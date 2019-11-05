@@ -14,7 +14,7 @@ struct noSecreto{
     char assunto[101];
     struct noSecreto * prox;
 };
-
+int conta(char *str);
 typedef struct noSecreto NoSecreto;
 typedef struct noSorteada NoSorteada;
 

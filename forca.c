@@ -145,3 +145,9 @@ NoSecreto* insere (NoSecreto* l, char i[31])
     novo->prox = l;
     return novo;
 }
+int conta(char *s)
+{
+   int i;
+   for (i = 0; s[i] != '\0'; ++i) ;
+   return i;
+}
