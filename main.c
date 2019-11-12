@@ -100,7 +100,7 @@ do{
             if(help == 1)
             {
             system("cls");
-            printf("\nEncontrou a palavra em %d tentaivas\n",cont);
+            printf("\nEncontrou a palavra em %d tentativas\n",cont);
             printf("Escolhendo nova palavra........\n");
             }
             else{
