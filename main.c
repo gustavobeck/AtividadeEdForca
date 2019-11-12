@@ -10,9 +10,8 @@ void exibe()
 
 int main()
 {
-    char nome[20];
-    printf("Digite seu nome:\n");
-    gets(nome);
+    char nome[20] = "";
+
 
     char aux;
     int help = 0;
@@ -24,11 +23,19 @@ int main()
 do{
      system("cls");
      printf("Bem vindo ao jogo %s\n",nome);
-     printf("Jogar - 1\n");
+     printf("Configuracao - 1\n");
+     printf("Jogar - 2\n");
      printf("Sair - 0\n");
      scanf("%d",&a);
-    fflush(stdin);
-      if(a == 1)
+     if(a == 1){
+            fflush(stdin);
+            printf("Digite seu nome:\n");
+            gets(nome);
+
+
+     }
+
+      else if(a == 2)
       {
        b = 0;
     exibe();
@@ -70,6 +77,7 @@ do{
                         cont= cont+1;
             exibe();
             printf("%s\n", sorteada->palavra);
+            printf("Assunto: %s\n",sorteada->assunto);
 
             printf("Digite uma letra:\n");
 
